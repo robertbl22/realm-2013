@@ -1,0 +1,11 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+@import 'sass-bootstrap/lib/bootstrap';
+@import 'parallax';
+
+footer {
+	background-color: gray;
+	color: lightgray;
+	a {
+		color: lightgray;
+	}
+}
