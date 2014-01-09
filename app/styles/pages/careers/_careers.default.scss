@@ -1,0 +1,31 @@
+.careers-banner {
+	position:relative;
+	overflow:hidden;
+	color: $white;
+	@include no-font-aliasing();
+	margin-bottom: 20px;
+
+	h2 {
+		color: $white;
+	}
+}
+
+.careers-banner-left {
+	position:absolute; 
+	left:0; 
+	background-color: $realm-orange;
+	height: 300px;
+	width:33.3%;
+}
+
+.careers-banner-content {
+	background-color: $realm-orange; 
+	padding-top:20px; 
+	padding-bottom:20px;
+}
+
+@media (max-width: 579px) {
+	.careers-contact h3 {
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,27 @@
+.services-categories {
+}
+
+.services-banner {
+	position:relative;
+	overflow:hidden;
+	color: $white;
+	@include no-font-aliasing();
+
+	h2 {
+		color: $white;
+	}
+}
+
+.services-banner-left {
+	position:absolute; 
+	left:0; 
+	background-color: $realm-orange;
+	height: 300px;
+	width:33.3%;
+}
+
+.services-banner-content {
+	background-color: $realm-orange; 
+	padding-top:20px; 
+	padding-bottom:20px;
+}

@@ -1,0 +1,24 @@
+/* .hero-photo-header {
+	width: $container-tablet - $grid-gutter-width;
+} */
+
+/* .hero-photo-nav {
+	text-align:right;
+	margin-top: 0;
+} */
+
+.hero-photo-nav {
+	margin-top: 40px;
+}
+
+.hero-photo-logo {
+	top: inherit;
+	bottom: 0;
+	margin-bottom: 50px;
+}
+
+.hero-photo-logo.suntrust {
+	bottom: inherit;
+	top: 0;
+	margin-top: 100px;
+}

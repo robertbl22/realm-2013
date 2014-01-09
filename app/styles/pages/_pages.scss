@@ -1,0 +1,17 @@
+
+/* 
+AngularJS minimum height 
+to avoid footer flash on page load 
+*/
+.app-container {
+	min-height: 800px;
+}
+
+
+@import "home/home";
+@import "clients/clients";
+@import "work/work";
+@import "people/people";
+@import "services/services";
+@import "contact/contact";
+@import "careers/careers";

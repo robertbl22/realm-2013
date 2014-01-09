@@ -1,0 +1,28 @@
+@import "navbar-default";
+
+@media (min-width: 480px) {
+	/* @import "xxx-480-up"; */
+}
+
+@media (min-width: 580px) {
+	/* @import "xxx-480-up"; */
+}
+
+@media (min-width: 768px) {
+	/* @import "xxx-768-up"; */
+	@import "navbar-768-up";
+}
+
+@media (min-width: 992px) {
+	/* @import "xxx-980-up"; */
+	@import "navbar-980-up";
+}
+
+@media (min-width: 1200px) {
+	/* @import "xxx-1200-up"; */
+	@import "navbar-1200-up";
+}
+
+@media (min-width: 1700px){
+	/* @import "xxx-1700-up"; */
+}

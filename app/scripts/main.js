@@ -1,24 +1,19 @@
-$(document).ready(function(){
+'use strict';
 
-	$('.nav, .navbar-header').localScroll({
-		duration:800
-	});
+/*
+jQuery(document).ready(function () {
+	'use strict';*/
 	
-	
-	/*
-	.parallax(xPosition, speedFactor, outerHeight)
-	xPosition: Horizontal position of the element
-	inertia: speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-	outerHeight: ([true]/false) Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-	*/
-	
-	$('#Row0 .layer-circle').parallax("center", 0.6);
+	//Test to see if required css pseudo-class supported
+	/*var hasPseudoClasses = Modernizr.generatedcontent;*/
 
-	$('#Row1').parallax("center", 0.3);
+	// "auto" turns the slideshow on/off
+	/*$('.rslides').responsiveSlides({
+		speed: 2000,
+		timeout: 10000,
+		maxwidth: 1920,
+		auto: hasPseudoClasses
+	});*/
 
-	$('#Row2').parallax("center", 0.1);
-	$('#Row2 .layer-shoe').parallax("center", 0.4);
-
-	$('#Row3').parallax("center", 0.3);
-
-})
+	/*$('.tooltipped').tooltip({ 'delay': { show: 1000, hide: 0 } });*/
+/*});*/

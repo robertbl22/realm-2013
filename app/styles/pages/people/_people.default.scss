@@ -1,0 +1,142 @@
+/******************************/
+/* GRID VIEW */
+
+.people-grid {
+	background-color: $white;
+}
+
+.people-about {
+	margin-bottom: 20px;
+}
+
+.person {
+	width: $realm-thumbnail-width;
+}
+
+
+
+/******************************/
+/* DETAIL VIEW */
+
+
+.people-title {
+	background-color: $realm-orange;
+	height: 38px;
+	line-height: 38px;
+	color: $white;
+
+	h4, h6 {
+		color: $white;
+		display: inline;
+	}
+}
+.people-title-controls {
+	text-align: right;
+	a {
+		color: $white;
+		&:hover {
+			color: $realm-light-orange;
+		}
+	}
+	.prev {
+		margin-right: 10px;
+	}
+	.next {
+		margin-right: 20px;
+	}
+}
+
+.people-profile {
+	background-color: $white;
+}
+
+.people-profile-photo {
+	background-color: $realm-light-orange;
+}
+
+.people-indicator {
+	position:absolute;
+	top:-7px;
+	overflow: hidden;
+	i {
+		color: $realm-orange;
+		font-size: 64px;
+		margin: 0;
+		/* margin-top: -5px;  */
+		padding: 0;
+		line-height: 24px;
+	}
+}
+
+.people-social-left {
+	background-color: $realm-orange; 
+	padding:10px; 
+	width:50%; 
+	float:left; 
+	text-align:center;
+}
+
+.people-social-right {
+	background-color: $realm-gray; 
+	padding:10px; 
+	width:50%; 
+	float:left; 
+	text-align:center;
+}
+
+.people-social-link {
+	color:white;
+	@include no-font-aliasing();
+	.fa {
+		margin-right:7px;
+	}
+}
+
+.people-social-description {
+	background-color: $realm-light-gray; 
+	padding:25px 15px 15px 15px; 
+	color: $white;
+	@include no-font-aliasing();
+}
+
+
+/******************************/
+/* NG ANIMATION */
+/* For transitions between grid and detail views */
+
+.people-view-container {
+	position: relative;
+	overflow: hidden;
+	min-height: 600px;
+	width: 230px;
+}
+
+.cross-slide.ng-enter, .cross-slide.ng-leave {
+	-webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+	-moz-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+	-o-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+	transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+
+	position: absolute;
+	display: block;
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.cross-slide.ng-enter {
+	left: 100%;
+}
+.cross-slide.ng-enter.ng-enter-active {
+	left: 0;
+}
+
+.cross-slide.ng-leave {}
+.cross-slide.ng-leave.ng-leave-active {
+	left: 100%;
+}
+
+

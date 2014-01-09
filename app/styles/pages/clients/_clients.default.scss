@@ -1,0 +1,80 @@
+
+.clients-about {
+	margin-bottom: 20px;
+}
+
+/**********************/
+/* SORT BAR */
+
+.clients-sortbar {
+	margin-bottom: 27px;
+}
+
+.clients-sortbar-title {
+	background-color: $realm-orange;
+	color: $white;
+	line-height: 37px;
+	padding-left: 10px;
+}
+
+.clients-sortbar-pointer {
+	background-image: url('../images/down-arrow-big.png');
+	background-repeat: no-repeat;
+	height: 17px;
+
+	/* i {
+		color: $realm-orange;
+		font-size: 64px;
+		line-height: 10px;
+	} */
+}
+
+/**********************/
+/* GRID */
+
+
+.client-tile {
+	width: $realm-thumbnail-width;
+	margin: 0 auto;
+}
+
+.client-link {}
+
+.client-logo {}
+
+.client-casestudy {
+	height: 21px;
+	margin-top: -21px;
+	position: relative;
+}
+
+.client-casestudy-title {
+	background-color: $realm-orange;
+	color: $white;
+	padding-left: 6px;
+	line-height: 21px;
+
+	.fa {
+		margin-right: 4px;
+	}
+}
+
+.client-casestudy-pointer {
+	background-image: url('../images/down-arrow-small.png');
+	background-repeat: no-repeat;
+	height: 8px;
+
+	/* i {
+		color: $realm-orange;
+		margin-top: -10px;
+		margin-left: 10px;
+		height: 18px;
+		position: absolute;
+	} */
+}
+
+
+
+
+
+

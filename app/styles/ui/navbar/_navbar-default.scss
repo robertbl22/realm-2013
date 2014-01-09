@@ -1,0 +1,45 @@
+.nav > li > a {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.navbar {
+	@include no-font-aliasing();
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+	border-width: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	@include transition(background-color 0.2s ease);
+}
+
+.navbar-inverse .navbar-nav > li.nav-secondary > a {
+	color: lighten($realm-gray, 34%);
+}
+
+.navbar-brand {
+	padding: 10px 15px 0 15px;
+}
+
+.basecamp-login {
+	input {
+		margin-bottom: 5px;
+	}
+
+	.btn-primary {
+		color: $white;
+		background-color: $realm-orange;
+		border-color: $realm-dark-orange;
+	}
+}
+
+.visible-xs .basecamp-login, .visible-xs .basecamp-login h4 {
+	color: $white;
+}
+
+
+
+
+

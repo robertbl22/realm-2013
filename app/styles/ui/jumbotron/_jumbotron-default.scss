@@ -1,0 +1,53 @@
+.hero-photo {
+	position: relative;
+	margin-top: $realm-navbar-height;
+}
+
+.hero-photo-image {
+	width: 100%;
+}
+
+.hero-photo-dots {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: $realm-dot-pattern;
+}
+
+.hero-photo-logo {
+	position: absolute; 
+	top: 0;
+	width: 100%; 
+	margin-top: 20px;
+}
+
+/* .hero-photo-header {
+	position: absolute;
+	top: $realm-navbar-height + 40px;
+} */
+
+.hero-photo-nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin-top: 20px;
+
+	.col-xs-6 {
+		text-align: right;
+	}
+
+	a {
+		color: $white;
+		margin-right: 5px;
+		margin-left: 5px;
+		@include text-shadow($realm-light-gray 0.05em 0.1em 0.1em);
+
+		&:hover {
+			color: $realm-light-orange;
+			@include text-shadow(none);
+		}
+	}
+}
+
+

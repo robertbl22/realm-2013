@@ -1,0 +1,54 @@
+@import "typography/typography-default";
+
+.nogutter {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.top-of-page {
+	margin-top: $realm-navbar-height;
+	padding-top: 40px;
+}
+
+.vertical-gutter {
+	margin-top: 0;
+}
+
+hr {
+	border-top: dotted 1px $realm-light-gray;
+}
+
+body {
+	background-image: $realm-dot-pattern;
+}
+
+
+
+
+@media (min-width: 480px) {
+	/* @import "xxx-480-up"; */
+	@import "typography/typography-480-up";
+}
+
+@media (min-width: 768px) {
+	/* @import "xxx-768-up"; */
+	@import "typography/typography-768-up";
+	
+	.vertical-gutter {
+		margin-top: $grid-gutter-width;
+	}
+}
+
+@media (min-width: 992px) {
+	/* @import "xxx-980-up"; */
+	@import "typography/typography-980-up"; 
+}
+
+@media (min-width: 1200px) {
+	/* @import "xxx-1200-up"; */
+	@import "typography/typography-1200-up";
+}
+
+@media (min-width: 1700px){
+	/* @import "xxx-1700-up"; */
+}

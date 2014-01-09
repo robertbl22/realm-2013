@@ -1,0 +1,57 @@
+/* ******************* */
+/* IMAGE TILE */
+.imagetile {
+	position: relative; 
+	display: block; 
+	overflow: hidden; 
+	width: 295px;
+	height: 100%;
+	margin: 0 auto 20px auto;
+}
+.imagetile-info {
+	position: absolute; 
+	display: block;
+	top: 0; 
+	width: 100%; 
+	height: 100%;
+}
+.imagetile-info-fg {
+	width: 100%; 
+	height: 100%;
+	padding: 10px;
+	position: absolute; 
+	top: 0;
+}
+.imagetile-info-bg {
+	height: 100%; 
+	width: 100%; 
+	background-color: $realm-orange; 
+	position: absolute; 
+	opacity: 0.9;
+	top: 0;
+}
+
+
+/* ******************* */
+/* PAGE SPECIFIC */
+.workitem .imagetile-info-fg {
+	padding: 20px;
+
+	h4 {
+		line-height: 1.35em;
+	}
+}
+
+.person .imagetile-info {
+	height: 40px;
+	top: inherit;
+	bottom: 0;
+}
+
+.person .imgwrapper {
+	position: relative;
+
+	img.crossfade {
+		position: absolute;
+	}
+}

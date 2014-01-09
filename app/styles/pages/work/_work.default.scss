@@ -1,0 +1,59 @@
+.work-image {
+	margin: 20px auto 0 auto;
+}
+
+/* .work-video {
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+} */
+
+/* Class injected by FitVidsJS */
+.fluid-width-video-wrapper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.work-categories {
+	margin-top: 20px;
+	background-color: $realm-orange;
+	padding: 10px;
+	color: $white;
+	@include no-font-aliasing();
+
+	h4, h5 {
+		color: $white;
+		@include no-font-aliasing();
+		margin: 5px 0;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	strong {
+		font-style: italic;
+	}
+
+	p {
+		margin: 0;
+	}
+}
+
+.intro-panel {
+	position: relative;
+	background-color: $realm-gray;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: $white;
+	@include no-font-aliasing();
+
+	h3 {
+		color: $white;
+	}
+}
+
+.info-circle {
+	text-align: center;
+	max-width: 400px;
+	margin: 0 auto;
+}	
+
