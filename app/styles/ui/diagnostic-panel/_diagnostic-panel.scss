@@ -1,0 +1,48 @@
+.responsive-diagnostic-panel { 
+	padding:4px 7px; 
+	position: fixed; 
+	bottom:0; 
+	left:0; 
+	background-color: #000000; 
+	@include border-radius(0 5px 0 0); 
+	@include opacity(.8);
+	z-index: 9999;
+	/* display: none; */
+
+	.breakpoint {
+		cursor: pointer;
+		color: $white;
+		background-color: transparent;
+	}
+}
+
+/*****************************************************/
+/* Responsive breakpoints */
+
+@media (min-width: 320px) {
+	.responsive-diagnostic-panel .div320px {color: red;}
+}
+
+@media (min-width: 480px) {
+	.responsive-diagnostic-panel .div480px {color: red;}
+}
+
+@media (min-width: 580px) {
+	.responsive-diagnostic-panel .div580px {color: red;}
+}
+
+@media (min-width: 768px) {
+	.responsive-diagnostic-panel .div768px {color: red;}
+}
+
+@media (min-width: 992px) {
+	.responsive-diagnostic-panel .div980px {color: red;}
+}
+
+@media (min-width: 1200px) {
+	.responsive-diagnostic-panel .div1200px {color: red;}
+}
+
+@media (min-width: 1700px){
+	.responsive-diagnostic-panel .div1700px {color: red;}
+}

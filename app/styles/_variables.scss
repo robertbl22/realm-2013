@@ -1,0 +1,66 @@
+
+/* Fonts */
+/* $iconSpritePath: 		"../images/glyphicons-halflings.png" !default; */
+/* $iconWhiteSpritePath: 	"../images/glyphicons-halflings-white.png" !default; */
+/* $FontAwesomePath: 		"../styles/fonts" !default; */
+/* $fa-font-path: 			"../styles/fonts" !default; */
+
+/* Colors */
+$realm-orange: 	#e56925;  
+$realm-gray: 	#555555;
+
+/* Accent Colors */
+$realm-light-orange: 	lighten($realm-orange, 14%);
+$realm-light-gray: 		lighten($realm-gray, 14%);
+$realm-dark-orange: 	darken($realm-orange, 14%);
+$realm-dark-gray: 		darken($realm-gray, 14%);
+
+$realm-thumbnail-width: 165px;
+$realm-navbar-height: 98px;
+$realm-dot-pattern: url('../images/background-tile-aliased.png');
+
+/* Fonts */
+@mixin realm-font(){
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+}
+@mixin realm-font-italic(){
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+	font-style: italic;
+}
+@mixin realm-font-bold(){
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+}
+@mixin realm-font-bold-italic(){
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+
+
+/* *********************************** */
+/* SASS MIXINs */
+@mixin background-photo($imgUrl, $hPosition, $vPosition) {
+	background-image: url($imgUrl);
+	background-repeat: no-repeat;
+	background-position: $vPosition $hPosition; 
+	@include background-size(cover);
+
+	/* IE8 background-size polyfill */
+	/* https://github.com/louisremi/background-size-polyfill */
+	/* The url is relative to the document, not to the css file! */
+	-ms-behavior: url('scripts/vendor/backgroundsize.min.htc');
+}
+@mixin no-font-aliasing(){
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+@mixin font-aliasing-default(){
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-font-smoothing: subpixel-antialiased;
+	-o-font-smoothing: subpixel-antialiased;
+}

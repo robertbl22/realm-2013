@@ -1,0 +1,28 @@
+@import "home.default";
+
+@media (min-width: 480px) {
+	/* @import "xxx-480-up"; */
+	@import "home-480-up";
+}
+
+@media (min-width: 580px) {
+	/* @import "xxx-580-up"; */
+	@import "home-580-up";
+}
+
+@media (min-width: 768px) {
+	/* @import "xxx-768-up"; */
+	@import "home-768-up";
+}
+
+@media (min-width: 992px) {
+	/* @import "xxx-980-up"; */
+}
+
+@media (min-width: 1200px) {
+	/* @import "xxx-1200-up"; */
+}
+
+@media (min-width: 1700px){
+	/* @import "xxx-1700-up"; */
+}

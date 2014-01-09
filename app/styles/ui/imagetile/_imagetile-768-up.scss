@@ -1,0 +1,17 @@
+.imagetile {
+	margin: 0;
+	width: 100%;
+}
+
+
+@media (max-width: 991px) {
+	.imagetile-info-fg {
+		h3 {
+			margin: 0;
+			font-size: 18px;
+		}
+		h4 {
+			font-size: 14px;
+		}
+	}
+}

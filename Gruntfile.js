@@ -56,6 +56,7 @@ module.exports = function (grunt) {
                 livereload: 35729,
                 // change this to '0.0.0.0' to access the server from outside
                 hostname: 'localhost'
+                //hostname: '192.168.1.222' //RWB
             },
             livereload: {
                 options: {
@@ -282,9 +283,19 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,png,txt}',
                         '.htaccess',
-                        'images/{,*/}*.{webp,gif}',
-                        'styles/fonts/{,*/}*.*',
-                        'bower_components/sass-bootstrap/fonts/*.*'
+                        //RWB: 'images/{,*/}*.{webp,gif}',
+                        'images/**/*', //RWB
+                        //RWB: 'styles/fonts/{,*/}*.*',
+                        //RWB: 'bower_components/sass-bootstrap/fonts/*.*',
+                        //RWB: 'bower_components/jQuery-Parallax/scripts/jquery.parallax-1.1.3.js',
+                        'scripts/**/*'
+                    ]
+                }, {
+                    expand: true,
+                    cwd: '.tmp/images',
+                    dest: '<%= yeoman.dist %>/images',
+                    src: [
+                        'generated/*'
                     ]
                 }]
             },
@@ -359,7 +370,7 @@ module.exports = function (grunt) {
         'uglify',
         'modernizr',
         'copy:dist',
-        'rev',
+        //'rev', //RWB: Remove file name versioning
         'usemin'
     ]);
 

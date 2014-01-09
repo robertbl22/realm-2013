@@ -1,0 +1,38 @@
+@import "jumbotron-default";
+
+
+@media (min-width: 480px) {
+	/* @import "xxx-480-up"; */
+}
+
+@media (min-width: 580px) {
+	/* @import "xxx-480-up"; */
+}
+
+@media (min-width: 768px) {
+	/* @import "xxx-768-up"; */
+	@import "jumbotron-768-up";
+}
+
+@media (min-width: 992px) {
+	/* @import "xxx-980-up"; */
+	/* .hero-photo-header {
+		width: $container-desktop - $grid-gutter-width;
+	} */
+	.hero-photo-logo.suntrust {
+		bottom: 0;
+		top: inherit;
+		margin-bottom: 80px;
+	}
+}
+
+@media (min-width: 1200px) {
+	/* @import "xxx-1200-up"; */
+	/* .hero-photo-header {
+		width: $container-lg-desktop - $grid-gutter-width;
+	} */
+}
+
+@media (min-width: 1700px){
+	/* @import "xxx-1700-up"; */
+}

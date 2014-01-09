@@ -1,0 +1,27 @@
+.contact-social-links {
+	margin-top: 20px;
+	
+	i {
+		width: 40px;
+		text-align: center;
+	}
+}
+
+.contact-info {
+	padding:20px;
+	margin-bottom: 30px;
+	background-color: $realm-orange; 
+	color: $white;
+	@include no-font-aliasing();
+
+	small>a {
+		color: $white !important;
+		text-decoration: underline;
+	}
+
+	a {
+		color: $white;
+		@include no-font-aliasing();
+		text-decoration: underline;
+	}
+}

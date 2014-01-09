@@ -1,0 +1,15 @@
+.home-dot {
+	img {
+		max-width: 350px;
+	}
+}
+
+.row-1, .row-2, .row-3 {
+	height: 700px;
+}
+
+.row-2, .row-3 {
+	.home-dot {
+		margin-top: 150px;
+	}
+}

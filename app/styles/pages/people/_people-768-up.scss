@@ -1,0 +1,18 @@
+.people-about {
+	margin-bottom: 0;
+}
+
+.person {
+	width: 100%;
+}
+
+@media (max-width: 991px) {
+	.person .imagetile-info-fg {
+		font-size: 12px;
+		line-height: 12px;
+	}
+}
+
+.people-view-container {
+	width: 100%;
+}

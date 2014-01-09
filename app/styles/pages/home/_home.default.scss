@@ -1,0 +1,226 @@
+/*******************************/
+/* TAG LINE */
+
+.tagline {
+	background-color: $realm-orange;
+	text-align: right;
+	height: 65px;
+
+	h2 {
+		color: $white;
+	}
+}
+
+@media (max-width: 479px) {
+	.tagline  {
+		height: 56px;
+		text-align: center;
+
+		h2 {
+			font-size: 18px;
+		}
+	}
+}
+
+.tagline.top-of-page {
+	padding-top: 0;
+}
+
+/*******************************/
+/* TAG LINE */
+
+.home-contact-tab {
+	background-color: $realm-orange; 
+	position:fixed; 
+	/* bottom:0;  */
+	z-index:1; 
+	/* padding:0 20px; */
+
+	bottom: -40px;
+	right: -10px;
+	border-radius: 130px;
+	width: 130px;
+	height: 130px;
+	text-align: center;
+
+	display: none;
+
+	h4 {
+		line-height: 90px;
+	}
+
+	a {
+		color: $white;
+	}
+}
+
+/*******************************/
+/* PARALLAX NAVIGATION */
+
+.nav-parallax {
+	position:fixed; 
+	margin-top:20px;
+	z-index: 2;
+
+	li {
+		list-style-type: none;
+		margin: 10px;
+	}
+
+	a {
+		color: $white;
+		@include text-shadow($realm-light-gray 0.1em 0.2em 0.2em);
+
+		&:hover {
+			color: $realm-orange;
+		}
+		&.active {
+			color: $realm-orange;
+		}
+	}
+}
+
+.btn-row1, .btn-row2, .btn-row3 {
+	display: block;
+
+	.col-sm-12 {
+		text-align:center; 
+	}
+
+	.btn-row-inner {
+		color: $white;
+		height: 40px; 
+		width: 100%;
+
+		&:hover {
+			background-color: rgba(0,0,0,0.2);
+		}
+	}
+}
+
+.parallax-hero-photo-dots {
+	/* position: absolute;
+	top: 0; */
+	background-image: $realm-dot-pattern;
+	height: 100%;
+	width: 100%;
+}
+
+
+/*******************************/
+/* BIG CIRCLE */
+
+/* .circular {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+.layer-circle {
+	overflow: hidden;
+	top: 230px;
+	position: fixed;
+	z-index: 1;
+}
+
+.layer-circle-bg {
+	background: url('../images/home/circle-text.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: (198px * .99) (1523px * .99);
+
+	background-color: $realm-orange;
+	height: 600px;
+	width: 300px;
+	margin-top: -75px;
+} */
+
+.home-dot {
+	margin: 50px 30px 0 30px;
+	img {
+		max-width: 250px;
+	}
+}
+
+/*******************************/
+/* PARALLAX PANELS */
+
+.row-1 {
+	background: url('../images/home/Home_GPA.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	overflow: hidden;
+
+	/* .row-1-header {
+		background: url('../images/home/GPA_Dot.png');
+		background-repeat: no-repeat;
+		background-position-x: 50px;
+		background-position-y: 70px;
+		height: 800px;
+		overflow: hidden;
+	} */
+}
+.row-2 {
+	background: url('../images/home/Home_Birla.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	overflow: hidden;
+
+	/* .row-2-header {
+		background: url('../images/home/Birla_Dot.png');
+		background-repeat: no-repeat;
+		background-position: 50px;
+		height: 800px;
+		overflow: hidden;
+	} */
+}
+.row-3 {
+	background: url('../images/home/Home_Novelis.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	overflow: hidden;
+
+	/* .row-3-header {
+		background: url('../images/home/Novelis_Dot.png');
+		background-repeat: no-repeat;
+		background-position: 50px;
+		height: 850px;
+		overflow: hidden;
+	} */
+}
+
+.visible-xs {
+	.row-1, .row-2, .row-3 {
+		height: 320px;
+	}
+
+	.row-xs-headline {
+		background-color: $realm-orange;
+		padding: 20px;
+
+		h3, h4 {
+			color: $white;
+			@include no-font-aliasing();
+		}
+	}
+}
+
+/* #Row1 {
+	background-attachment:  fixed;
+}
+
+#Row2 {
+	background-attachment:  fixed;
+}
+
+#Row3 {
+	background-attachment:  fixed;
+} */
+
+

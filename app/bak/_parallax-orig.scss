@@ -1,0 +1,77 @@
+.layer-1 {
+	color: white;
+}
+
+
+#Row0 {
+	background: url('../images/home/firstBG.jpg');
+	height: 900px;
+
+	.layer-1 {
+		color: red;
+	}
+
+	.layer-circle {
+		background: url('../images/home/bg-hole.png');
+		background-repeat: no-repeatå;
+		background-position: center;
+		background-attachment:  fixed;
+		height: 900px;
+		position: absolute;
+	}
+
+	.row {
+		padding-top: 240px;
+	}
+}
+
+#Row1 {
+	background: url('../images/home/firstBG.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment:  fixed;
+	height: 600px;
+
+	.row {
+		padding-top:80px;
+	}
+}
+
+#Row2 {
+	background: url('../images/home/secondBG.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment:  fixed;
+	height: 1300px;
+
+	.layer-shoe {
+		background: url('../images/home/trainers.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment:  fixed;
+		height: 1300px;
+		position: absolute;
+	}
+
+	.row {
+		padding-top:240px;
+	}
+}
+
+#Row3 {
+	background: url('../images/home/thirdBG.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment:  fixed;
+	height: 650px;
+
+	.row {
+		padding-top:100px;
+	}
+}
+
+#Footer {
+	height: 400px;
+}
+
+

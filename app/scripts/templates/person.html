@@ -1,0 +1,12 @@
+<a href="#/{{id}}" class="person imagetile" ng-mouseenter="toggle=true;crossfade=true;" ng-mouseleave="toggle=false;crossfade=false;">
+	<div class="imgwrapper">
+		<img class="crossfade img-responsive" ng-src="images/people/165x165/{{id}}-color.jpg" alt="{{name}}" ng-if="crossfade" />
+		<img class="img-responsive" ng-src="images/people/165x165/{{id}}-gray.jpg" alt="{{name}}" />
+	</div>
+	<div class="imagetile-info toggle" ng-if="toggle">
+		<div class="imagetile-info-bg"></div>
+		<div class="imagetile-info-fg white">
+			<em class="white">{{name}}</em>
+		</div>
+	</div>
+</a>

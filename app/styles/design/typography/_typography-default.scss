@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5, h6 {
+	color: $realm-orange;
+	@include no-font-aliasing();
+}
+
+.nobreak {
+	white-space: nowrap;
+}
+
+.orange {
+	color: $realm-orange;
+}
+a.orange {
+	text-decoration: underline;
+
+	&:hover {
+		color: $realm-light-orange;
+	}
+}
+
+footer a.orange:hover {
+	color: $white;
+}
+
+.gray {
+	color: $realm-gray;
+}
+
+.white, a.white, .white a {
+	color: $white;
+	@include no-font-aliasing();
+}
+
+a.white, .white a {
+	&:hover {
+		text-decoration: underline;
+	}
+}
