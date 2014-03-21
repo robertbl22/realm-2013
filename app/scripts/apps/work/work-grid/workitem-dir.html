@@ -1,0 +1,12 @@
+<div class="col-sm-4">
+	<a href="{{href}}" class="workitem imagetile" ng-mouseenter="app.toggle=true" ng-mouseleave="app.toggle=false"><img class="img-responsive tooltipped" ng-src="{{image.url}}" alt="{{title}}" title="{{title}}" border="0" />
+		<div class="imagetile-info toggle" ng-if="app.toggle">
+			<div class="imagetile-info-bg"></div>
+			<div class="imagetile-info-fg white">
+				<h3 class="white"><em>{{title}}</em></h3>
+				<h4 class="white"><em>{{description}}</em></h4>
+				<div class="white"><i class="fa fa-arrow-circle-right"></i> View work</div>
+			</div>
+		</div>
+	</a>
+</div>

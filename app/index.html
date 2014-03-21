@@ -32,6 +32,7 @@
     <!-- InstanceParam name="Menu_Services_Class" type="text" value="" -->
     <!-- InstanceParam name="Menu_Clients_Class" type="text" value="" -->
     <!-- InstanceParam name="Menu_People_Class" type="text" value="" -->
+    <!-- InstanceParam name="Menu_Blog_Class" type="text" value="" -->
     <!-- InstanceParam name="Menu_Careers_Class" type="text" value="" -->
     <!-- InstanceParam name="Menu_Contact_Class" type="text" value="" -->
 </head>
@@ -89,6 +90,9 @@
                     </li>
                     <li class="">
                         <a href="people.html">People</a>
+                    </li>
+                    <li class="">
+                        <a href="project-blog/">Blog</a>
                     </li>
                     <li class="">
                         <a href="careers.html">Careers</a>
@@ -187,8 +191,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="home-dot col-sm-6 col-md-8">
-                                
-                                    <img class="img-responsive" src="images/home/GPA_Dot.png" alt="Establishing their rightful place in global commerce." />
+
+                                <img class="img-responsive" src="images/home/gpa_dot.png" alt="Establishing their rightful place in global commerce." />
                                 
                             </div>
                         </div>
@@ -202,8 +206,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="home-dot col-sm-6 col-md-8">
-                                
-                                    <img class="img-responsive" src="images/home/Birla_Dot.png" alt="Realigning a global brand image." />
+
+                                <img class="img-responsive" src="images/home/birla_dot.png" alt="Realigning a global brand image." />
                                 
                             </div>
                         </div>
@@ -217,8 +221,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="home-dot col-sm-6 col-md-8">
-                                
-                                    <img class="img-responsive" src="images/home/Novelis_Dot.png" alt="Evolving the brand to capture a shifting paradigm." />
+
+                                <img class="img-responsive" src="images/home/novelis_dot.png" alt="Evolving the brand to capture a shifting paradigm." />
                                 
                             </div>
                         </div>
@@ -228,9 +232,9 @@
         </div>
     </div>
     
-    <div class="container">
+    <div class="container hidden-xs">
         <div class="row">
-            <div class="col-sm-offset-9 col-sm-3">
+            <div class="col-sm-offset-10 col-sm-2">
                 <div class="home-contact-tab">
                     <h4>
                         <em><a href="contact.html">Contact Us</a></em>
@@ -273,9 +277,9 @@
             <div class="row">
                 <div class="col-sm-12">
                     <small>
-                        Copyright &copy; 2009-2013 by Realm Advertising, Inc. All rights reserved.
+                        Copyright &copy; 2009-2014 by Realm Advertising, Inc. All rights reserved.
                         &nbsp;&nbsp;&nbsp;
-                        <a href="privacy.html">Privacy&nbsp;Statement</a> | <a href="terms.html">Terms&nbspof&nbsp;Use</a>
+                        <a href="privacy.html">Privacy&nbsp;Statement</a> | <a href="terms.html">Terms&nbsp;of&nbsp;Use</a>
                     </small>
                 </div>
             </div>
@@ -293,19 +297,12 @@
             s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')
-    </script>
-
-	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-animate.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-cookies.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-resource.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-route.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-sanitize.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-touch.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js"></script>
+    
+    <!-- build:js scripts/vendor.js -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <!-- endbuild -->
 
     <!-- build:js scripts/plugins.js -->
     <script src="bower_components/sass-bootstrap/js/transition.js"></script>
@@ -314,35 +311,31 @@
     <!--<script src="../app/bower_components/sass-bootstrap/js/carousel.js"></script>-->
     <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
     <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
-    <!--
-    <script src="../app/bower_components/sass-bootstrap/js/modal.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/tooltip.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/popover.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/scrollspy.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/tab.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/affix.js"></script>
-    -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/modal.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/tooltip.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/popover.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/scrollspy.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/tab.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/affix.js"></script> -->
     <!--<script src="../app/styles/ui/diagnostic-panel/diagnostic-panel.js"></script>-->
     <!-- endbuild -->
 
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <!-- build:js scripts/modules.js -->
+    <!-- Angular modules -->
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- Realm modules -->
+    <script src="scripts/apps/animations/realmAnimations.js"></script>
+    <script src="scripts/apps/animations/crossfade.js"></script>
+    <script src="scripts/apps/animations/toggle.js"></script>
     <!-- endbuild -->
     
     <!-- InstanceBeginEditable name="LocalScripts" -->
-
-<!-- build:js scripts/plugins-parallax.js -->
-<script src="bower_components/jQuery-Parallax/scripts/jquery.parallax-1.1.3.js"></script>
-<script src="bower_components/jquery.localScroll/jquery.localScroll.min.js"></script>
-<script src="bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
-<script src="scripts/parallax.js"></script>
-<!-- endbuild -->
-<!-- build:js scripts/fitvids.js -->
-<script src="bower_components/fitvids/jquery.fitvids.js"></script>
-<script src="scripts/work-pages.js"></script>
-<!-- endbuild -->
-
-<!-- InstanceEndEditable -->
+    <!-- InstanceEndEditable -->
 
 </body>
 <!-- InstanceEnd --></html>

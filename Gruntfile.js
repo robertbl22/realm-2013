@@ -43,7 +43,7 @@ module.exports = function (grunt) {
                     livereload: '<%= connect.options.livereload %>'
                 },
                 files: [
-                    '<%= yeoman.app %>/*.html',
+                    '<%= yeoman.app %>/{,*/}*.{html,php}',//RWB: '<%= yeoman.app %>/*.html',
                     '.tmp/styles/{,*/}*.css',
                     '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
@@ -212,7 +212,7 @@ module.exports = function (grunt) {
             options: {
                 dirs: ['<%= yeoman.dist %>']
             },
-            html: ['<%= yeoman.dist %>/{,*/}*.html'],
+            html: ['<%= yeoman.dist %>/{,*/}*.{html,php}'], //RWB: html: ['<%= yeoman.dist %>/{,*/}*.html'],
             css: ['<%= yeoman.dist %>/styles/{,*/}*.css']
         },
         imagemin: {
@@ -267,7 +267,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= yeoman.app %>',
-                    src: '*.html',
+                    src: '{*/,}*.{html,php}', //RWB: src: '*.html', //Added php for 'timing' subdirectory
                     dest: '<%= yeoman.dist %>'
                 }]
             }
@@ -288,7 +288,8 @@ module.exports = function (grunt) {
                         //RWB: 'styles/fonts/{,*/}*.*',
                         //RWB: 'bower_components/sass-bootstrap/fonts/*.*',
                         //RWB: 'bower_components/jQuery-Parallax/scripts/jquery.parallax-1.1.3.js',
-                        'scripts/**/*'
+                        'scripts/**/*',
+                        '{timing,SFEA}/**/*' //RWB
                     ]
                 }, {
                     expand: true,
@@ -296,6 +297,30 @@ module.exports = function (grunt) {
                     dest: '<%= yeoman.dist %>/images',
                     src: [
                         'generated/*'
+                    ]
+                }, {
+                    // RWB: Added this for WordPress theme development
+                    expand: true,
+                    cwd: '<%= yeoman.dist %>/styles',
+                    dest: '<%= yeoman.dist %>/../../../wordpress/wp-content/themes/realm-2013/assets-realm/styles',
+                    src: [
+                        'main.css'
+                    ]
+                }, {
+                    // RWB: Added this for WordPress theme development
+                    expand: true,
+                    cwd: '<%= yeoman.dist %>/scripts',
+                    dest: '<%= yeoman.dist %>/../../../wordpress/wp-content/themes/realm-2013/assets-realm/scripts',
+                    src: [
+                        '*'
+                    ]
+                }, {
+                    // RWB: Added this for WordPress theme development
+                    expand: true,
+                    cwd: '<%= yeoman.dist %>/images',
+                    dest: '<%= yeoman.dist %>/../../../wordpress/wp-content/themes/realm-2013/assets-realm/images',
+                    src: [
+                        '**'
                     ]
                 }]
             },

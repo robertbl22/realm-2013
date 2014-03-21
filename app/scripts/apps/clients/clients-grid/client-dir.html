@@ -1,0 +1,11 @@
+<div class="client-tile">
+	<div ng-show="linked" class="client-link">
+		<div class="client-casestudy">
+			<div class="client-casestudy-title">
+			<a href="{{workUrl}}" class="white"><small><i class="fa fa-arrow-circle-right" style="margin-right:5px;"></i>View work</small></a>
+			</div>
+		</div>
+		<a href="{{workUrl}}"><img class="client-logo img-responsive" ng-src="{{image.url}}" alt="{{name}}" title="{{name}}" /></a>
+	</div>
+	<img ng-hide="linked" class="client-logo img-responsive" ng-src="{{image.url}}" alt="{{name}}" title="{{name}}" />
+</div>

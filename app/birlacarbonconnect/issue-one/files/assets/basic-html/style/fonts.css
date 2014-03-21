@@ -1,0 +1,559 @@
+﻿
+        .font1 {
+        font-size: 12px;
+        font-family: HelveticaNeue;
+        color: #FFFFFF ;
+        opacity: 1 ;
+        }
+        .font1 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        }
+        .font1 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font1 a:visited {
+        color: #900060;
+        }
+      
+        .font2 {
+        font-size: 12px;
+        font-family: HelveticaNeue;
+        color: #21A8CD ;
+        opacity: 1 ;
+        }
+        .font2 a {
+        text-decoration: none;
+        color: #21A8CD;
+        }
+        .font2 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font2 a:visited {
+        color: #900060;
+        }
+      
+        .font3 {
+        font-size: 12px;
+        font-family: HelveticaNeue;
+        color: #000000 ;
+        opacity: 1 ;
+        }
+        .font3 a {
+        text-decoration: none;
+        color: #000000;
+        }
+        .font3 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font3 a:visited {
+        color: #900060;
+        }
+      
+        .font4 {
+        font-size: 7.0px;
+        font-family: HelveticaNeue;
+        color: #000000 ;
+        opacity: 1 ;
+        }
+        .font4 a {
+        text-decoration: none;
+        color: #000000;
+        }
+        .font4 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font4 a:visited {
+        color: #900060;
+        }
+      
+        .font5 {
+        font-size: 10px;
+        font-family: HelveticaNeue;
+        color: #FFFFFF ;
+        opacity: 1 ;
+        }
+        .font5 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        }
+        .font5 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font5 a:visited {
+        color: #900060;
+        }
+      
+        .font6 {
+        font-size: 55px;
+        font-family: HelveticaNeue;
+        color: #007489 ;
+        opacity: 1 ;
+        }
+        .font6 a {
+        text-decoration: none;
+        color: #007489;
+        }
+        .font6 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font6 a:visited {
+        color: #900060;
+        }
+      
+        .font7 {
+        font-size: 16px;
+        font-family: HelveticaNeue;
+        color: #007489 ;
+        opacity: 1 ;
+        }
+        .font7 a {
+        text-decoration: none;
+        color: #007489;
+        }
+        .font7 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font7 a:visited {
+        color: #900060;
+        }
+      
+        .font8 {
+        font-size: 12px;
+        font-family: HelveticaNeue;
+        color: #007489 ;
+        opacity: 1 ;
+        }
+        .font8 a {
+        text-decoration: none;
+        color: #007489;
+        }
+        .font8 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font8 a:visited {
+        color: #900060;
+        }
+      
+        .font9 {
+        font-size: 14px;
+        font-family: HelveticaNeue;
+        color: #FFFFFF ;
+        opacity: 1 ;
+        }
+        .font9 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        }
+        .font9 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font9 a:visited {
+        color: #900060;
+        }
+      
+        .font10 {
+        font-size: 30px;
+        font-family: HelveticaNeue;
+        color: #007489 ;
+        opacity: 1 ;
+        }
+        .font10 a {
+        text-decoration: none;
+        color: #007489;
+        }
+        .font10 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font10 a:visited {
+        color: #900060;
+        }
+      
+        .font11 {
+        font-size: 50px;
+        font-family: HelveticaNeue;
+        color: #FFFFFF ;
+        opacity: 1 ;
+        }
+        .font11 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        }
+        .font11 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font11 a:visited {
+        color: #900060;
+        }
+      
+        .font12 {
+        font-size: 8.5px;
+        font-family: HelveticaNeue;
+        color: #007489 ;
+        opacity: 1 ;
+        }
+        .font12 a {
+        text-decoration: none;
+        color: #007489;
+        }
+        .font12 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font12 a:visited {
+        color: #900060;
+        }
+      
+        .font13 {
+        font-size: 12px;
+        font-family: HelveticaNeue;
+        color: #008E71 ;
+        opacity: 1 ;
+        }
+        .font13 a {
+        text-decoration: none;
+        color: #008E71;
+        }
+        .font13 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font13 a:visited {
+        color: #900060;
+        }
+      
+        .font14 {
+        font-size: 50px;
+        font-family: HelveticaNeue;
+        color: #007489 ;
+        opacity: 1 ;
+        }
+        .font14 a {
+        text-decoration: none;
+        color: #007489;
+        }
+        .font14 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font14 a:visited {
+        color: #900060;
+        }
+      
+        .font15 {
+        font-size: 50px;
+        font-family: HelveticaNeue;
+        color: #21A8CD ;
+        opacity: 1 ;
+        }
+        .font15 a {
+        text-decoration: none;
+        color: #21A8CD;
+        }
+        .font15 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font15 a:visited {
+        color: #900060;
+        }
+      
+        .font16 {
+        font-size: 27px;
+        font-family: HelveticaNeue;
+        color: #007489 ;
+        opacity: 1 ;
+        }
+        .font16 a {
+        text-decoration: none;
+        color: #007489;
+        }
+        .font16 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font16 a:visited {
+        color: #900060;
+        }
+      
+        .font17 {
+        font-size: 48px;
+        font-family: HelveticaNeue;
+        color: #008E71 ;
+        opacity: 1 ;
+        }
+        .font17 a {
+        text-decoration: none;
+        color: #008E71;
+        }
+        .font17 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font17 a:visited {
+        color: #900060;
+        }
+      
+        .font18 {
+        font-size: 84px;
+        font-family: HelveticaNeue;
+        color: #008E71 ;
+        opacity: 1 ;
+        }
+        .font18 a {
+        text-decoration: none;
+        color: #008E71;
+        }
+        .font18 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font18 a:visited {
+        color: #900060;
+        }
+      
+        .font19 {
+        font-size: 49.0px;
+        font-family: HelveticaNeue;
+        color: #008E71 ;
+        opacity: 1 ;
+        }
+        .font19 a {
+        text-decoration: none;
+        color: #008E71;
+        }
+        .font19 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font19 a:visited {
+        color: #900060;
+        }
+      
+        .font20 {
+        font-size: 14px;
+        font-family: HelveticaNeue;
+        color: #008E71 ;
+        opacity: 1 ;
+        }
+        .font20 a {
+        text-decoration: none;
+        color: #008E71;
+        }
+        .font20 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font20 a:visited {
+        color: #900060;
+        }
+      
+        .font21 {
+        font-size: 17px;
+        font-family: HelveticaNeue;
+        color: #008E71 ;
+        opacity: 1 ;
+        }
+        .font21 a {
+        text-decoration: none;
+        color: #008E71;
+        }
+        .font21 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font21 a:visited {
+        color: #900060;
+        }
+      
+        .font22 {
+        font-size: 16px;
+        font-family: HelveticaNeue;
+        color: #8ED2E5 ;
+        opacity: 1 ;
+        }
+        .font22 a {
+        text-decoration: none;
+        color: #8ED2E5;
+        }
+        .font22 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font22 a:visited {
+        color: #900060;
+        }
+      
+        .font23 {
+        font-size: 16px;
+        font-family: HelveticaNeue;
+        color: #00005D ;
+        opacity: 1 ;
+        }
+        .font23 a {
+        text-decoration: none;
+        color: #00005D;
+        }
+        .font23 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font23 a:visited {
+        color: #900060;
+        }
+      
+        .font24 {
+        font-size: 16px;
+        font-family: HelveticaNeue;
+        color: #67ADB6 ;
+        opacity: 1 ;
+        }
+        .font24 a {
+        text-decoration: none;
+        color: #67ADB6;
+        }
+        .font24 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font24 a:visited {
+        color: #900060;
+        }
+      
+        .font25 {
+        font-size: 16px;
+        font-family: HelveticaNeue;
+        color: #262C7C ;
+        opacity: 1 ;
+        }
+        .font25 a {
+        text-decoration: none;
+        color: #262C7C;
+        }
+        .font25 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font25 a:visited {
+        color: #900060;
+        }
+      
+        .font26 {
+        font-size: 16px;
+        font-family: HelveticaNeue;
+        color: #21A8CD ;
+        opacity: 1 ;
+        }
+        .font26 a {
+        text-decoration: none;
+        color: #21A8CD;
+        }
+        .font26 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font26 a:visited {
+        color: #900060;
+        }
+      
+        .font27 {
+        font-size: 7.5px;
+        font-family: HelveticaNeue;
+        color: #000000 ;
+        opacity: 1 ;
+        }
+        .font27 a {
+        text-decoration: none;
+        color: #000000;
+        }
+        .font27 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font27 a:visited {
+        color: #900060;
+        }
+      
+        .font28 {
+        font-size: 7.5px;
+        font-family: HelveticaNeue;
+        color: #FFFFFF ;
+        opacity: 1 ;
+        }
+        .font28 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        }
+        .font28 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font28 a:visited {
+        color: #900060;
+        }
+      
+        .font29 {
+        font-size: 48px;
+        font-family: HelveticaNeue;
+        color: #007489 ;
+        opacity: 1 ;
+        }
+        .font29 a {
+        text-decoration: none;
+        color: #007489;
+        }
+        .font29 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font29 a:visited {
+        color: #900060;
+        }
+      
+        .font30 {
+        font-size: 11.2px;
+        font-family: HelveticaNeue;
+        color: #21A8CD ;
+        opacity: 1 ;
+        }
+        .font30 a {
+        text-decoration: none;
+        color: #21A8CD;
+        }
+        .font30 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font30 a:visited {
+        color: #900060;
+        }
+      
+        .font31 {
+        font-size: 17px;
+        font-family: HelveticaNeue;
+        color: #E7F304 ;
+        opacity: 1 ;
+        }
+        .font31 a {
+        text-decoration: none;
+        color: #E7F304;
+        }
+        .font31 a:hover {
+        text-decoration: none;
+        background-color: rgba(63,199,255,0.5);
+        }
+        .font31 a:visited {
+        color: #900060;
+        }
+      

@@ -1,6 +1,20 @@
 @import "footer/footer";
 @import "jumbotron/jumbotron";
-@import "dnn-controls/dnn-controls";
 @import "navbar/navbar";
 @import "imagetile/imagetile";
 @import "diagnostic-panel/diagnostic-panel";
+
+.btn.orange {
+	color: $white;
+	background-color: $realm-orange;
+	/* border-color: $realm-dark-orange; */
+	border: none;
+	border-radius: 0;
+	text-decoration: none;
+}
+
+/* Fix for "Back to top" links weren't going to the top of scroll. */
+#topofpage {
+	top: 0;
+	position: absolute;
+}

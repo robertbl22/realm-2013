@@ -1,0 +1,29 @@
+<div class="vertical-gutter"></div>
+<form name="frm" ng-submit="submitForm(frm)" class="form-horizontal" role="form" novalidate="">
+
+    <!-- NAME -->
+    <div class="form-group">
+        <label for="inputName" class="col-sm-2 control-label">Name:</label>
+        <div class="col-sm-10">
+            <input id="tbxName" name="tbxName" ng-model="user.name" type="text" class="form-control" placeholder="Your name" required>
+            <div class="alert alert-danger" ng-show="showValidationMessages && frm.tbxName.$invalid"><i class="fa fa-exclamation-circle" style="margin-right:6px"></i>Please enter your name.</div>
+        </div>
+    </div>
+
+    <!-- EMAIL -->
+    <div class="form-group">
+        <label for="inputEmail" class="col-sm-2 control-label">Email:</label>
+        <div class="col-sm-10">
+            <input id="tbxEmail" name="tbxEmail" ng-model="user.email" type="email" class="form-control" placeholder="Email address" required>
+            <div class="alert alert-danger" ng-show="showValidationMessages && frm.tbxEmail.$invalid"><i class="fa fa-exclamation-circle" style="margin-right:6px"></i>Please check the email address.</div>
+        </div>
+    </div>
+
+    <!-- SUBMIT BUTTON -->
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-primary orange"><i class="fa fa-cloud-download" style="margin-right:6px"></i>Download</button>
+        </div>
+    </div>
+
+</form>

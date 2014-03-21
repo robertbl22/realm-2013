@@ -1,0 +1,15 @@
+<!--
+SEE:
+http://stackoverflow.com/questions/11056819/how-would-i-use-angularjs-ng-repeat-with-twitter-bootstraps-scaffolding/11058532#11058532
+-->
+
+<div class="container-fluid people-grid">
+	<div ng-repeat="i in people.range()">
+		<div ng-class="{true:'vertical-gutter hidden-xs'}[!$first]"></div>
+		<div class="row">
+			<span ng-repeat="person in people.slice(i,i+4)">
+				<div person class="col-sm-3" id="{{person.id}}" name="{{person.name}}" ng-click="people.dosomething()"></div>
+			</span>
+		</div>
+	</div>
+</div>

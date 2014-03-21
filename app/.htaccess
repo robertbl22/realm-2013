@@ -1,3 +1,7 @@
+# RWB
+# enables folders to be case insensitive
+CheckSpelling On
+
 # Apache Configuration File
 
 # (!) Using `.htaccess` files slows down Apache, therefore, if you have access

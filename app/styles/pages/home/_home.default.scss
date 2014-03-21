@@ -36,17 +36,15 @@
 	z-index:1; 
 	/* padding:0 20px; */
 
-	bottom: -40px;
-	right: -10px;
+	bottom: -50px;
+	/* right: -10px; */
 	border-radius: 130px;
 	width: 130px;
 	height: 130px;
 	text-align: center;
 
-	display: none;
-
 	h4 {
-		line-height: 90px;
+		line-height: 80px;
 	}
 
 	a {
@@ -146,7 +144,7 @@
 /* PARALLAX PANELS */
 
 .row-1 {
-	background: url('../images/home/Home_GPA.jpg');
+	background: url('../images/home/home_gpa.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -154,7 +152,7 @@
 	overflow: hidden;
 
 	/* .row-1-header {
-		background: url('../images/home/GPA_Dot.png');
+		background: url('../images/home/gpa_dot.png');
 		background-repeat: no-repeat;
 		background-position-x: 50px;
 		background-position-y: 70px;
@@ -163,7 +161,7 @@
 	} */
 }
 .row-2 {
-	background: url('../images/home/Home_Birla.jpg');
+	background: url('../images/home/home_birla.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -171,7 +169,7 @@
 	overflow: hidden;
 
 	/* .row-2-header {
-		background: url('../images/home/Birla_Dot.png');
+		background: url('../images/home/birla_dot.png');
 		background-repeat: no-repeat;
 		background-position: 50px;
 		height: 800px;
@@ -179,7 +177,7 @@
 	} */
 }
 .row-3 {
-	background: url('../images/home/Home_Novelis.jpg');
+	background: url('../images/home/home_novelis.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -187,7 +185,7 @@
 	overflow: hidden;
 
 	/* .row-3-header {
-		background: url('../images/home/Novelis_Dot.png');
+		background: url('../images/home/novelis_dot.png');
 		background-repeat: no-repeat;
 		background-position: 50px;
 		height: 850px;

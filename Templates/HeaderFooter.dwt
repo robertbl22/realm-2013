@@ -4,21 +4,21 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <!-- TemplateBeginEditable name="doctitle" -->
-    <title>Realm Advertising</title>
-    <!-- TemplateEndEditable -->
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="../app/styles/main.css">
-    <!-- endbuild -->
-    <!-- //build:js scripts/vendor/modernizr.js -->
-    <!-- <script src="../app/bower_components/modernizr/modernizr.js"></script> -->
-    <!-- //endbuild -->
-    <!--[if lt IE 9]>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Realm Advertising</title>
+<!-- TemplateEndEditable -->
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<!-- build:css(.tmp) styles/main.css -->
+<link rel="stylesheet" href="../app/styles/main.css">
+<!-- endbuild -->
+<!-- //build:js scripts/vendor/modernizr.js -->
+<!-- <script src="../app/bower_components/modernizr/modernizr.js"></script> -->
+<!-- //endbuild -->
+<!--[if lt IE 9]>
     <script src="scripts/vendor/respond.min.js"></script>
     <script src="scripts/vendor/es5-shim.min.js"></script>
     <script src="../app/bower_components/json2/json2.js"></script>
@@ -26,14 +26,17 @@
     	document.isIE8orLess = true;
     </script>
     <![endif]-->
-    <!-- TemplateBeginEditable name="head" -->
-    <!-- TemplateEndEditable -->
-    <!-- TemplateParam name="Menu_Work_Class" type="text" value="" -->
-    <!-- TemplateParam name="Menu_Services_Class" type="text" value="" -->
-    <!-- TemplateParam name="Menu_Clients_Class" type="text" value="" -->
-    <!-- TemplateParam name="Menu_People_Class" type="text" value="" -->
-    <!-- TemplateParam name="Menu_Careers_Class" type="text" value="" -->
-    <!-- TemplateParam name="Menu_Contact_Class" type="text" value="" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="Menu_Work_Class" type="text" value="" -->
+<!-- TemplateParam name="Menu_Services_Class" type="text" value="" -->
+<!-- TemplateParam name="Menu_Clients_Class" type="text" value="" -->
+<!-- TemplateParam name="Menu_People_Class" type="text" value="" -->
+<!-- TemplateParam name="Menu_Blog_Class" type="text" value="" -->
+<!-- TemplateParam name="Menu_Careers_Class" type="text" value="" -->
+<!-- TemplateParam name="Menu_Contact_Class" type="text" value="" -->
+<!-- TemplateParam name="ShowAngularModules" type="boolean" value="true" -->
+<!-- TemplateParam name="ShowTweenMax" type="boolean" value="true" -->
 </head>
 <body>
     <a id="topofpage"></a>
@@ -89,6 +92,9 @@
                     </li>
                     <li class="@@(Menu_People_Class)@@">
                         <a href="../app/people.html">People</a>
+                    </li>
+                    <li class="@@(Menu_Blog_Class)@@">
+                        <a href="../app/project-blog/">Blog</a>
                     </li>
                     <li class="@@(Menu_Careers_Class)@@">
                         <a href="../app/careers.html">Careers</a>
@@ -174,9 +180,9 @@
             <div class="row">
                 <div class="col-sm-12">
                     <small>
-                        Copyright &copy; 2009-2013 by Realm Advertising, Inc. All rights reserved.
+                        Copyright &copy; 2009-2014 by Realm Advertising, Inc. All rights reserved.
                         &nbsp;&nbsp;&nbsp;
-                        <a href="privacy.html">Privacy&nbsp;Statement</a> | <a href="terms.html">Terms&nbspof&nbsp;Use</a>
+                        <a href="../app/privacy.html">Privacy&nbsp;Statement</a> | <a href="../app/terms.html">Terms&nbsp;of&nbsp;Use</a>
                     </small>
                 </div>
             </div>
@@ -194,41 +200,46 @@
             s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')
-    </script>
-
+    <!-- TemplateBeginIf cond="ShowTweenMax" -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-animate.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-cookies.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-resource.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-route.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-sanitize.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-touch.min.js"></script>
+	<!-- TemplateEndIf -->
+    
+    <!-- build:js scripts/vendor.js -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <!-- endbuild -->
 
     <!-- build:js scripts/plugins.js -->
-    <script src="../app/bower_components/sass-bootstrap/js/transition.js"></script>
+    <script src="bower_components/sass-bootstrap/js/transition.js"></script>
     <!--<script src="../app/bower_components/sass-bootstrap/js/alert.js"></script>-->
-    <script src="../app/bower_components/sass-bootstrap/js/button.js"></script>
+    <script src="bower_components/sass-bootstrap/js/button.js"></script>
     <!--<script src="../app/bower_components/sass-bootstrap/js/carousel.js"></script>-->
-    <script src="../app/bower_components/sass-bootstrap/js/collapse.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/dropdown.js"></script>
-    <!--
-    <script src="../app/bower_components/sass-bootstrap/js/modal.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/tooltip.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/popover.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/scrollspy.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/tab.js"></script>
-    <script src="../app/bower_components/sass-bootstrap/js/affix.js"></script>
-    -->
+    <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+    <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/modal.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/tooltip.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/popover.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/scrollspy.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/tab.js"></script> -->
+    <!-- <script src="../app/bower_components/sass-bootstrap/js/affix.js"></script> -->
     <!--<script src="../app/styles/ui/diagnostic-panel/diagnostic-panel.js"></script>-->
     <!-- endbuild -->
 
-    <!-- build:js scripts/main.js -->
-    <script src="../app/scripts/main.js"></script>
+    <!-- TemplateBeginIf cond="ShowAngularModules" -->
+    <!-- build:js scripts/modules.js -->
+    <!-- Angular modules -->
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- Realm modules -->
+    <script src="scripts/apps/animations/realmAnimations.js"></script>
+    <script src="scripts/apps/animations/crossfade.js"></script>
+    <script src="scripts/apps/animations/toggle.js"></script>
     <!-- endbuild -->
+	<!-- TemplateEndIf -->
     
     <!-- TemplateBeginEditable name="LocalScripts" -->
     <!-- TemplateEndEditable -->

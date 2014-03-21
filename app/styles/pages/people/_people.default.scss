@@ -50,9 +50,9 @@
 	background-color: $white;
 }
 
-.people-profile-photo {
+/* .people-profile-photo {
 	background-color: $realm-light-orange;
-}
+} */
 
 .people-indicator {
 	position:absolute;
@@ -108,7 +108,7 @@
 	position: relative;
 	overflow: hidden;
 	min-height: 600px;
-	width: 230px;
+	/* width: 230px; */
 }
 
 .cross-slide.ng-enter, .cross-slide.ng-leave {
@@ -128,7 +128,7 @@
 }
 
 .cross-slide.ng-enter {
-	left: 100%;
+	left: -100%;
 }
 .cross-slide.ng-enter.ng-enter-active {
 	left: 0;
@@ -136,7 +136,7 @@
 
 .cross-slide.ng-leave {}
 .cross-slide.ng-leave.ng-leave-active {
-	left: 100%;
+	left: -100%;
 }
 
 
