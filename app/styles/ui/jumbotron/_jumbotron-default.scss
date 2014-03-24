@@ -1,10 +1,91 @@
 .hero-photo {
 	position: relative;
 	margin-top: $realm-navbar-height;
+	background-color: #000000;
 }
 
 .hero-photo-image {
 	width: 100%;
+}
+
+.zoomin {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+
+	-webkit-transition: all 4s ease-in-out;
+	-moz-transition: all 4s ease-in-out;
+	-o-transition: all 4s ease-in-out;
+	-ms-transition: all 4s ease-in-out;
+	transition: all 4s ease-in-out;
+}
+
+.zoomout-init {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.zoomout {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+
+	-webkit-transition: all 4s ease-in-out;
+	-moz-transition: all 4s ease-in-out;
+	-o-transition: all 4s ease-in-out;
+	-ms-transition: all 4s ease-in-out;
+	transition: all 4s ease-in-out;
+}
+
+.slideup-init {
+	-webkit-transform: translateY(0) scale(1.07);
+	-moz-transform: translateY(0) scale(1.07);
+	-o-transform: translateY(0) scale(1.07);
+	-ms-transform: translateY(0) scale(1.07);
+	transform: translateY(0) scale(1.07);
+}
+
+.slideup {
+	-webkit-transform: translateY(-3%) scale(1.07);
+	-moz-transform: translateY(-3%) scale(1.07);
+	-o-transform: translateY(-3%) scale(1.07);
+	-ms-transform: translateY(-3%) scale(1.07);
+	transform: translateY(-3%) scale(1.07);
+
+	-webkit-transition: all 4s ease-in-out;
+	-moz-transition: all 4s ease-in-out;
+	-o-transition: all 4s ease-in-out;
+	-ms-transition: all 4s ease-in-out;
+	transition: all 4s ease-in-out;
+}
+
+.twirl-init {
+	-webkit-transform: rotate(-2deg) scale(1.07);
+	-moz-transform: rotate(-2deg) scale(1.07);
+	-o-transform: rotate(-2deg) scale(1.07);
+	-ms-transform: rotate(-2deg) scale(1.07);
+	transform: rotate(-2deg) scale(1.07);
+}
+
+.twirl {
+	-webkit-transform: rotate(1deg) scale(1.07);
+	-moz-transform: rotate(1deg) scale(1.07);
+	-o-transform: rotate(1deg) scale(1.07);
+	-ms-transform: rotate(1deg) scale(1.07);
+	transform: rotate(1deg) scale(1.07);
+
+	-webkit-transition: all 4s ease-in-out;
+	-moz-transition: all 4s ease-in-out;
+	-o-transition: all 4s ease-in-out;
+	-ms-transition: all 4s ease-in-out;
+	transition: all 4s ease-in-out;
 }
 
 .hero-photo-dots {

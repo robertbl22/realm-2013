@@ -19,8 +19,8 @@
 <!-- <script src="../app/bower_components/modernizr/modernizr.js"></script> -->
 <!-- //endbuild -->
 <!--[if lt IE 9]>
-    <script src="scripts/vendor/respond.min.js"></script>
-    <script src="scripts/vendor/es5-shim.min.js"></script>
+    <script src="../app/scripts/vendor/respond.min.js"></script>
+    <script src="../app/scripts/vendor/es5-shim.min.js"></script>
     <script src="../app/bower_components/json2/json2.js"></script>
     <script> 
     	document.isIE8orLess = true;
@@ -35,8 +35,8 @@
 <!-- TemplateParam name="Menu_Blog_Class" type="text" value="" -->
 <!-- TemplateParam name="Menu_Careers_Class" type="text" value="" -->
 <!-- TemplateParam name="Menu_Contact_Class" type="text" value="" -->
-<!-- TemplateParam name="ShowAngularModules" type="boolean" value="true" -->
-<!-- TemplateParam name="ShowTweenMax" type="boolean" value="true" -->
+<!-- TemplateParam name="ShowAngularModules" type="boolean" value="false" -->
+<!-- TemplateParam name="ShowTweenMax" type="boolean" value="false" -->
 </head>
 <body>
     <a id="topofpage"></a>
@@ -204,18 +204,18 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js"></script>
 	<!-- TemplateEndIf -->
     
-    <!-- build:js scripts/vendor.js -->
-    <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
+    <!-- build:js ../app/scripts/vendor.js -->
+    <script src="../app/bower_components/jquery/jquery.js"></script>
+    <script src="../app/bower_components/angular/angular.js"></script>
     <!-- endbuild -->
 
-    <!-- build:js scripts/plugins.js -->
-    <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+    <!-- build:js ../app/scripts/plugins.js -->
+    <script src="../app/bower_components/sass-bootstrap/js/transition.js"></script>
     <!--<script src="../app/bower_components/sass-bootstrap/js/alert.js"></script>-->
-    <script src="bower_components/sass-bootstrap/js/button.js"></script>
+    <script src="../app/bower_components/sass-bootstrap/js/button.js"></script>
     <!--<script src="../app/bower_components/sass-bootstrap/js/carousel.js"></script>-->
-    <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
-    <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+    <script src="../app/bower_components/sass-bootstrap/js/collapse.js"></script>
+    <script src="../app/bower_components/sass-bootstrap/js/dropdown.js"></script>
     <!-- <script src="../app/bower_components/sass-bootstrap/js/modal.js"></script> -->
     <!-- <script src="../app/bower_components/sass-bootstrap/js/tooltip.js"></script> -->
     <!-- <script src="../app/bower_components/sass-bootstrap/js/popover.js"></script> -->
@@ -226,18 +226,18 @@
     <!-- endbuild -->
 
     <!-- TemplateBeginIf cond="ShowAngularModules" -->
-    <!-- build:js scripts/modules.js -->
+    <!-- build:js ../app/scripts/modules.js -->
     <!-- Angular modules -->
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
-    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="../app/bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../app/bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="../app/bower_components/angular-resource/angular-resource.js"></script>
+    <script src="../app/bower_components/angular-route/angular-route.js"></script>
+    <script src="../app/bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="../app/bower_components/angular-touch/angular-touch.js"></script>
     <!-- Realm modules -->
-    <script src="scripts/apps/animations/realmAnimations.js"></script>
-    <script src="scripts/apps/animations/crossfade.js"></script>
-    <script src="scripts/apps/animations/toggle.js"></script>
+    <script src="../app/scripts/apps/animations/realmAnimations.js"></script>
+    <script src="../app/scripts/apps/animations/crossfade.js"></script>
+    <script src="../app/scripts/apps/animations/toggle.js"></script>
     <!-- endbuild -->
 	<!-- TemplateEndIf -->
     
