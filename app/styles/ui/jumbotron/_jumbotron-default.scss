@@ -1,28 +1,34 @@
 .hero-photo {
 	position: relative;
 	margin-top: $realm-navbar-height;
-	background-color: #000000;
+	background-color: #FFFFFF;
 }
 
 .hero-photo-image {
 	width: 100%;
 }
 
+.zoomin-init {
+	@include opacity(0);
+}
+
 .zoomin {
+	@include opacity(1);
 	-webkit-transform: scale(1.05);
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 
-	-webkit-transition: all 4s ease-in-out;
-	-moz-transition: all 4s ease-in-out;
-	-o-transition: all 4s ease-in-out;
-	-ms-transition: all 4s ease-in-out;
-	transition: all 4s ease-in-out;
+	-webkit-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	-moz-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	-o-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	-ms-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	transition: transform 4s ease-in-out, opacity 0.2s ease;
 }
 
 .zoomout-init {
+	@include opacity(0);
 	-webkit-transform: scale(1.05);
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.05);
@@ -31,42 +37,46 @@
 }
 
 .zoomout {
+	@include opacity(1);
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
 
-	-webkit-transition: all 4s ease-in-out;
-	-moz-transition: all 4s ease-in-out;
-	-o-transition: all 4s ease-in-out;
-	-ms-transition: all 4s ease-in-out;
-	transition: all 4s ease-in-out;
+	-webkit-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	-moz-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	-o-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	-ms-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	transition: transform 4s ease-in-out, opacity 0.2s ease;
 }
 
 .slideup-init {
-	-webkit-transform: translateY(0) scale(1.07);
-	-moz-transform: translateY(0) scale(1.07);
-	-o-transform: translateY(0) scale(1.07);
-	-ms-transform: translateY(0) scale(1.07);
-	transform: translateY(0) scale(1.07);
+	@include opacity(0);
+	-webkit-transform: translateY(2.5%) scale(1.07);
+	-moz-transform: translateY(2.5%) scale(1.07);
+	-o-transform: translateY(2.5%) scale(1.07);
+	-ms-transform: translateY(2.5%) scale(1.07);
+	transform: translateY(2.5%) scale(1.07);
 }
 
 .slideup {
-	-webkit-transform: translateY(-3%) scale(1.07);
-	-moz-transform: translateY(-3%) scale(1.07);
-	-o-transform: translateY(-3%) scale(1.07);
-	-ms-transform: translateY(-3%) scale(1.07);
-	transform: translateY(-3%) scale(1.07);
+	@include opacity(1);
+	-webkit-transform: translateY(-2.5%) scale(1.07);
+	-moz-transform: translateY(-2.5%) scale(1.07);
+	-o-transform: translateY(-2.5%) scale(1.07);
+	-ms-transform: translateY(-2.5%) scale(1.07);
+	transform: translateY(-2.5%) scale(1.07);
 
-	-webkit-transition: all 4s ease-in-out;
-	-moz-transition: all 4s ease-in-out;
-	-o-transition: all 4s ease-in-out;
-	-ms-transition: all 4s ease-in-out;
-	transition: all 4s ease-in-out;
+	-webkit-transition: transform 6s ease-in-out, opacity 0.2s ease;
+	-moz-transition: transform 6s ease-in-out, opacity 0.2s ease;
+	-o-transition: transform 6s ease-in-out, opacity 0.2s ease;
+	-ms-transition: transform 6s ease-in-out, opacity 0.2s ease;
+	transition: transform 6s ease-in-out, opacity 0.2s ease;
 }
 
 .twirl-init {
+	@include opacity(0);
 	-webkit-transform: rotate(-2deg) scale(1.07);
 	-moz-transform: rotate(-2deg) scale(1.07);
 	-o-transform: rotate(-2deg) scale(1.07);
@@ -75,17 +85,18 @@
 }
 
 .twirl {
+	@include opacity(1);
 	-webkit-transform: rotate(1deg) scale(1.07);
 	-moz-transform: rotate(1deg) scale(1.07);
 	-o-transform: rotate(1deg) scale(1.07);
 	-ms-transform: rotate(1deg) scale(1.07);
 	transform: rotate(1deg) scale(1.07);
 
-	-webkit-transition: all 4s ease-in-out;
-	-moz-transition: all 4s ease-in-out;
-	-o-transition: all 4s ease-in-out;
-	-ms-transition: all 4s ease-in-out;
-	transition: all 4s ease-in-out;
+	-webkit-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	-moz-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	-o-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	-ms-transition: transform 4s ease-in-out, opacity 0.2s ease;
+	transition: transform 4s ease-in-out, opacity 0.2s ease;
 }
 
 .hero-photo-dots {

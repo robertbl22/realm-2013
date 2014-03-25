@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('peopleApp')
-.controller('personDetailCtrl', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http){
+.controller('personDetailCtrl', ['$scope', '$routeParams', '$http', function ($scope, $routeParams, $http){
 	
 	this.name = 'personDetailCtrl';
 	var personId = $routeParams.personId;
