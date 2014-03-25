@@ -180,7 +180,7 @@ module.exports = function (grunt) {
         },*/
         'bower-install': {
             app: {
-                html: '<%= yeoman.app %>/index.html',
+                html: '<%= yeoman.app %>/{,*/}*.html', //RWB allow pages other than index to have build:js definitions, was /index.html
                 ignorePath: '<%= yeoman.app %>/'
             }
         },
@@ -206,7 +206,7 @@ module.exports = function (grunt) {
             options: {
                 dest: '<%= yeoman.dist %>'
             },
-            html: '<%= yeoman.app %>/index.html'
+            html: '<%= yeoman.app %>/{,*/}*.html' //RWB allow pages other than index to have build:js definitions, was index.html
         },
         usemin: {
             options: {
@@ -393,7 +393,7 @@ module.exports = function (grunt) {
         'concat',
         'cssmin',
         'uglify',
-        'modernizr',
+        //'modernizr', //RWB: Remove because we're not using modernizr
         'copy:dist',
         //'rev', //RWB: Remove file name versioning
         'usemin'

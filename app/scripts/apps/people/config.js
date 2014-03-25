@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('peopleApp')
-.config(['$routeProvider', function($routeProvider){
+.config(['$routeProvider', function ($routeProvider){
 
 	$routeProvider.when('/', {
 		templateUrl: 'scripts/apps/people/people-grid/peopleGrid.html',

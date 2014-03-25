@@ -5,8 +5,4 @@ angular.module('workApp')
 
 	this.toggle = true;
 	
-	$(document).ready (function () {
-		$('.container').fitVids();
-	});
-	
 }]);

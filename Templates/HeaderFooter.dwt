@@ -4,39 +4,38 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<!-- TemplateBeginEditable name="doctitle" -->
-<title>Realm Advertising</title>
-<!-- TemplateEndEditable -->
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-<!-- build:css(.tmp) styles/main.css -->
-<link rel="stylesheet" href="../app/styles/main.css">
-<!-- endbuild -->
-<!-- //build:js scripts/vendor/modernizr.js -->
-<!-- <script src="../app/bower_components/modernizr/modernizr.js"></script> -->
-<!-- //endbuild -->
-<!--[if lt IE 9]>
-    <script src="../app/scripts/vendor/respond.min.js"></script>
-    <script src="../app/scripts/vendor/es5-shim.min.js"></script>
-    <script src="../app/bower_components/json2/json2.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Realm Advertising</title>
+    <!-- TemplateEndEditable -->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.tmp) @@(PathToRoot)@@styles/main.css -->
+    <link rel="stylesheet" href="../app/styles/main.css">
+    <!-- endbuild -->
+    <!--[if lt IE 9]>
+    <script src="@@(PathToRoot)@@scripts/vendor/respond.min.js"></script>
+    <script src="@@(PathToRoot)@@scripts/vendor/es5-shim.min.js"></script>
+    <script src="@@(PathToRoot)@@scripts/vendor/json2.js"></script>
     <script> 
     	document.isIE8orLess = true;
     </script>
     <![endif]-->
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
-<!-- TemplateParam name="Menu_Work_Class" type="text" value="" -->
-<!-- TemplateParam name="Menu_Services_Class" type="text" value="" -->
-<!-- TemplateParam name="Menu_Clients_Class" type="text" value="" -->
-<!-- TemplateParam name="Menu_People_Class" type="text" value="" -->
-<!-- TemplateParam name="Menu_Blog_Class" type="text" value="" -->
-<!-- TemplateParam name="Menu_Careers_Class" type="text" value="" -->
-<!-- TemplateParam name="Menu_Contact_Class" type="text" value="" -->
-<!-- TemplateParam name="ShowAngularModules" type="boolean" value="false" -->
-<!-- TemplateParam name="ShowTweenMax" type="boolean" value="false" -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    <!-- TemplateParam name="Menu_Work_Class" type="text" value="" -->
+    <!-- TemplateParam name="Menu_Services_Class" type="text" value="" -->
+    <!-- TemplateParam name="Menu_Clients_Class" type="text" value="" -->
+    <!-- TemplateParam name="Menu_People_Class" type="text" value="" -->
+    <!-- TemplateParam name="Menu_Blog_Class" type="text" value="" -->
+    <!-- TemplateParam name="Menu_Careers_Class" type="text" value="" -->
+    <!-- TemplateParam name="Menu_Contact_Class" type="text" value="" -->
+    <!-- TemplateParam name="ShowAngularModules" type="boolean" value="false" -->
+    <!-- TemplateParam name="ShowTweenMax" type="boolean" value="false" -->
+    <!-- TemplateParam name="ShowMediaScripts" type="boolean" value="false" -->
+    <!-- TemplateParam name="PathToRoot" type="text" value="" -->
 </head>
 <body>
     <a id="topofpage"></a>
@@ -73,7 +72,7 @@
                     <script>
                     	document.getElementById("RealmLogo").setAttribute("style", "display:none");
                     </script>
-                    <img id="RealmLogoIE8" src="../app/images/realm-logo-gray.png" alt="Realm Advertising" />
+                    <img id="RealmLogoIE8" src="@@(PathToRoot)@@images/realm-logo-gray.png" alt="Realm Advertising" />
                     <![endif]-->
                 </a>
             </div>
@@ -201,32 +200,32 @@
     </script>
 
     <!-- TemplateBeginIf cond="ShowTweenMax" -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js"></script>
-	<!-- TemplateEndIf -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js"></script>
+    <!-- TemplateEndIf -->
     
-    <!-- build:js ../app/scripts/vendor.js -->
+    <!-- build:js @@(PathToRoot)@@scripts/vendor.js -->
     <script src="../app/bower_components/jquery/jquery.js"></script>
     <script src="../app/bower_components/angular/angular.js"></script>
     <!-- endbuild -->
 
-    <!-- build:js ../app/scripts/plugins.js -->
+    <!-- build:js @@(PathToRoot)@@scripts/plugins.js -->
     <script src="../app/bower_components/sass-bootstrap/js/transition.js"></script>
-    <!--<script src="../app/bower_components/sass-bootstrap/js/alert.js"></script>-->
+    <!-- script src="../app/bower_components/sass-bootstrap/js/alert.js"></script -->
     <script src="../app/bower_components/sass-bootstrap/js/button.js"></script>
-    <!--<script src="../app/bower_components/sass-bootstrap/js/carousel.js"></script>-->
+    <!-- script src="../app/bower_components/sass-bootstrap/js/carousel.js"></script -->
     <script src="../app/bower_components/sass-bootstrap/js/collapse.js"></script>
     <script src="../app/bower_components/sass-bootstrap/js/dropdown.js"></script>
-    <!-- <script src="../app/bower_components/sass-bootstrap/js/modal.js"></script> -->
-    <!-- <script src="../app/bower_components/sass-bootstrap/js/tooltip.js"></script> -->
-    <!-- <script src="../app/bower_components/sass-bootstrap/js/popover.js"></script> -->
-    <!-- <script src="../app/bower_components/sass-bootstrap/js/scrollspy.js"></script> -->
-    <!-- <script src="../app/bower_components/sass-bootstrap/js/tab.js"></script> -->
-    <!-- <script src="../app/bower_components/sass-bootstrap/js/affix.js"></script> -->
-    <!--<script src="../app/styles/ui/diagnostic-panel/diagnostic-panel.js"></script>-->
+    <!-- script src="../app/bower_components/sass-bootstrap/js/modal.js"></script -->
+    <!-- script src="../app/bower_components/sass-bootstrap/js/tooltip.js"></script -->
+    <!-- script src="../app/bower_components/sass-bootstrap/js/popover.js"></script -->
+    <!-- script src="../app/bower_components/sass-bootstrap/js/scrollspy.js"></script -->
+    <!-- script src="../app/bower_components/sass-bootstrap/js/tab.js"></script -->
+    <!-- script src="../app/bower_components/sass-bootstrap/js/affix.js"></script -->
+    <!-- script src="../app/styles/ui/diagnostic-panel/diagnostic-panel.js"></script -->
     <!-- endbuild -->
 
     <!-- TemplateBeginIf cond="ShowAngularModules" -->
-    <!-- build:js ../app/scripts/modules.js -->
+    <!-- build:js @@(PathToRoot)@@scripts/modules.js -->
     <!-- Angular modules -->
     <script src="../app/bower_components/angular-animate/angular-animate.js"></script>
     <script src="../app/bower_components/angular-cookies/angular-cookies.js"></script>
@@ -239,7 +238,14 @@
     <script src="../app/scripts/apps/animations/crossfade.js"></script>
     <script src="../app/scripts/apps/animations/toggle.js"></script>
     <!-- endbuild -->
-	<!-- TemplateEndIf -->
+    <!-- TemplateEndIf -->
+
+    <!-- TemplateBeginIf cond="ShowMediaScripts" -->
+    <!-- build:js @@(PathToRoot)@@scripts/media.js -->
+    <script src="@@(PathToRoot)@@bower_components/fitvids/jquery.fitvids.js"></script>
+    <script src="@@(PathToRoot)@@scripts/vendor/jquery.support.cssproperty.js"></script>
+    <!-- endbuild -->
+    <!-- TemplateEndIf -->
     
     <!-- TemplateBeginEditable name="LocalScripts" -->
     <!-- TemplateEndEditable -->
