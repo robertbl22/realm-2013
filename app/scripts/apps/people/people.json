@@ -48,18 +48,6 @@
 		"profile": "<h5>Education:</h5><p>Emory University</p><h5>Hometown:</h5><p>Macon, GA</p><h5>What drew you to your profession?</h5><p>The desire to tell stories</p><h5>What is your favorite hobby?</h5><p>Watching movies, seeing a good story told well on film</p>"
 	},
 	{
-		"id": "robert",
-		"name": "Robert Blaske",
-		"title": "Web Developer",
-		"profile": "<h5>Education:</h5><p>Bachelor of Design in Fine Arts, University of Florida</p><h5>Hometown:</h5><p><em>As a kid:</em> Hobe Sound, FL<br/><em>As an adult:</em> Marietta, GA</p><h5>Favorite quote:</h5><p><strong>Q:</strong> How many programmers does it take to change a light bulb? <strong>A:</strong> None, that&rsquo;s a hardware issue.</p><h5>Who is your personal hero or mentor?</h5><p>My all-time-favorite mentor is an author and thinker about the soul, Dr. Larry Crabb. And in the &ldquo;right now&rdquo; hero category, I&rsquo;m impressed with Miško Hevery who is one of the creators of a really cool Javascript framework called AngularJS. This site is built with it.</p>"
-	},
-	{
-		"id": "michelle",
-		"name": "Michelle Carlino",
-		"title": "Creative",
-		"profile": "<h5>Education:</h5><p>B.F.A in Graphic Design, SUNY Fredonia</p><h5>Hometown:</h5><p>Lockport, NY</p><h5>Affiliations:</h5><p>AIGA, MODA, IABC, Part-time Instructor and Panelist at Portfolio Center</p><h5>Favorite quote:</h5><p>&ldquo;The tragedy of life doesn&rsquo;t lie in not reaching your goal. The tragedy lies in having no goal to reach.&rdquo;<br/>&ndash;Benjamin Mays</p><h5>What drew you to your profession?</h5><p>The definition of designer can be as broad as you want it to be. You can write brilliant copy, you can develop intelligent strategies, and you can communicate them beautifully.</p>"
-	},
-	{
 		"id": "kathryn",
 		"name": "Kathryn Colohan",
 		"title": "Creative",
